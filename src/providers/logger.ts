@@ -29,7 +29,7 @@ import * as moment from 'moment';
 @Injectable()
 export class CoreLoggerProvider {
     /** Whether the logging is enabled. */
-    enabled = true;
+    enabled = false;
 
     constructor() {
         // Nothing to do.
